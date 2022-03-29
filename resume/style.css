@@ -1,5 +1,6 @@
-body,ul{
+body,html{
     margin: 0px;
+    width: 100vw;
 }
 #body-header{
     background-image: url(header-image.jpg);
@@ -14,6 +15,7 @@ body,ul{
 .horizontal-list{
     list-style: none;
     text-align: center;
+    margin-top: 0vh;
     /* display: inline-block; */
     /* top: 2vh; */
 }
@@ -62,15 +64,16 @@ body,ul{
 #about{
     position: relative;
     /* display: inline-block; */
+    justify-content: center;
 }
 #about img{
-    width: 5vw;
-    height: 6vh;
+    /* width: 5vw; */
+    /* height: 6vh; */
     width: 18vw;
     height: 36vh;
     border-radius: 50%;
     margin-top: -18vh;
-    z-index: 0;
+    /* z-index: 0; */
 }
 .sasi{
     text-align: center;
@@ -81,10 +84,120 @@ body,ul{
     text-align: center;
 }
 .content p{
-    width: 60vw;
+    width: 75vw;
     display: inline-block;
     text-align: justify;
     font-size: 1.5rem;
     font-family: sans-serif;
     /* text-align: center; */
 }
+section{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+section:nth-child(2n+1)
+{
+    /* background-color: white; */
+    /* height: 50vh; */
+}
+section:nth-child(2n)
+{
+    /* background-color: gray; */
+    /* height: 50vh; */
+}
+#skills{
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+}
+.skill-title{
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+}
+.skill-title img{
+    height: 7vh;
+    width: 4vw;
+}
+.skill-title span{
+    font-size: 3rem;
+    margin-left: 2vh;
+    font-family: sans-serif;
+}
+.skill-content{
+    margin-top: 5vh;
+    display: flex;
+    width: 75vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    min-height: 30vh;
+}
+.bar{
+    height: 6vh;
+    width: 17vw;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+.bar-inner{
+    /* width: 75%; */
+    height: inherit;
+    /* background-color: purple; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.text-properties{
+    font-family: sans-serif;
+    color: white;
+    margin: 12px;
+}
+.seventy-five{
+    width:75%;
+}
+.fourty{
+    width: 40%;
+}
+.fifty{
+    width: 50%;
+}
+.seventy{
+    width: 70%;
+}
+.eighty{
+    width: 80%;
+}
+.ninty{
+    width: 90%;
+}
+.ninty-five{
+    width: 95%;
+}
+.bar-green-yellow{
+    background-color: greenyellow;
+}
+.bar-yellow{
+    background-color: teal;
+}
+.bar-blue{
+    background-color: blueviolet;
+}
+.bar-orange{
+    background-color: orange;
+}
+.bar-green{
+    background-color: green;
+}
+.bar-pink{
+    background-color: palevioletred;
+}
+.bar-red{
+    background-color: indianred;
+}
+.bar-tomato{
+    background-color: tomato;
+}
+
