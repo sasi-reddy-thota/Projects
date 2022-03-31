@@ -103,13 +103,19 @@ section:nth-child(2n+1)
 }
 section:nth-child(2n)
 {
-    /* background-color: gray; */
+    background-color: #efefef;
     /* height: 50vh; */
 }
+
+/* Skills */
+
 #skills{
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 8vh;
+    height: 50vh;
+    /* margin-bottom: 8vh; */
+    /* align-content: space-around; */
 }
 .skill-title{
     /* align-items: center; */
@@ -117,6 +123,8 @@ section:nth-child(2n)
     justify-content: center;
     align-items: center;
     width: 75vw;
+    padding: 2vh;
+    /* margin: 5vh; */
 }
 .skill-title img{
     height: 7vh;
@@ -128,7 +136,7 @@ section:nth-child(2n)
     font-family: sans-serif;
 }
 .skill-content{
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     display: flex;
     width: 75vw;
     flex-wrap: wrap;
@@ -201,3 +209,101 @@ section:nth-child(2n)
     background-color: tomato;
 }
 
+/* Contact */
+
+#contact{
+    background: linear-gradient(to right top,#0707eb,rgb(75, 75, 160));
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-title{
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    padding: 2vh;
+    
+}
+.contact-title img{
+    width: 3vw;
+    height: 6vh;
+}
+.contact-title span{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+.contact-content{
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 5vh;
+    width: 35vw;
+    margin-bottom: 4vh;
+    /* border-radius: 5px; */
+    font-size: 1.3rem;
+}
+#text-area{
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 8vh;
+    width: 35vw;
+    margin-bottom: 4vh;
+    /* border-radius: 5px; */
+    font-size: 1.3rem;
+}
+#submit{
+    background-color: inherit;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: white;
+    border: 3px solid white;
+    padding: 1vh;
+    font-weight: bolder;
+
+}
+.contact-content-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-content-right{
+    width: 35vw;
+}
+.normal-text{
+    /* background-color: inherit; */
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.5rem;
+    word-spacing: 0.2rem;
+    /* margin-bottom: 2px; */
+
+}
+.logo-text{
+    position: relative;
+    bottom: 8px;
+    margin-left: 1vw;
+}
+.heading{
+    /* background-color: inherit; */
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 0px;
+}
+.contact-content-right img{
+    height: 3vh;
+    width: 1.5vw;
+}
